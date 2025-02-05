@@ -1,0 +1,16 @@
+.common-layout .el-header,
+.common-layout .el-footer {
+  background-color: var(--el-color-primary-light-7);
+  color: var(--el-text-color-primary);
+  text-align: center;
+}
+.common-layout .el-aside {
+  background-color: #545c64;
+  color: var(--el-text-color-primary);
+  text-align: center;
+  height: calc(100vh - 60px);
+}
+.common-layout .el-main {
+  height: calc(100vh - 60px);
+  background-color: #e9eef3;
+}
